@@ -1,8 +1,7 @@
-module.exports = {
-  pathPrefix: "/deploy-test",
-}
+const path = require('path')
 
 module.exports = {
+  pathPrefix: "/deploy-test",
   siteMetadata: {
     title: 'Gatsby + WordPress Starter',
   },
@@ -25,7 +24,8 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-root-import',
       options: {
-        src: path.join(__dirname, '~'),
+        src: path.join(__dirname, 'src'),
+        pages: path.join(__dirname, 'src/pages')
       }
     }
   ],

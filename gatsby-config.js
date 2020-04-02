@@ -22,5 +22,11 @@ module.exports = {
         verboseOutput: false,
       },
     },
+    {
+      resolve: 'gatsby-plugin-root-import',
+      options: {
+        src: path.join(__dirname, '~'),
+      }
+    }
   ],
 }

@@ -4,7 +4,7 @@ import Layout from '../components/layout'
 const Index = ({data}) => {
 
   const titles_mapped = data.allWordpressPost.nodes.map( ({title}) =>
-    <h1 key={title}>Blog Post - {title} - x</h1>
+    <h1 key={title}>Blog Post - {title}</h1>
   );
 
   return (

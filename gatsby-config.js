@@ -21,12 +21,11 @@ module.exports = {
         verboseOutput: false,
       },
     },
-    {
-      resolve: 'gatsby-plugin-root-import',
-      options: {
-        src: path.join(__dirname, 'src'),
-        pages: path.join(__dirname, 'src/pages')
-      }
-    }
+    // {
+    //   resolve: 'gatsby-plugin-root-import',
+    //   options: {
+    //     root: path.join(__dirname, 'src'),
+    //   }
+    // }
   ],
 }

@@ -1,6 +1,7 @@
 name: github pages
 
 on:
+  repository_dispatch
   push:
     branches:
       - master

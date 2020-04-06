@@ -1,7 +1,9 @@
 name: github pages
 
 on:
-  repository_dispatch
+  repository_dispatch:
+    branches:
+      - gh-pages
   push:
     branches:
       - master
